@@ -56,9 +56,7 @@ table {
   background: linear-gradient(180deg, #9bfe33 0%, #ffffff 164.18%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
-  text-shadow: 0px 4px 15px rgba(50, 222, 35, 0.7);
+  /* text-shadow: 0px 4px 15px rgba(50, 222, 35, 0.7); */
 }
 
 .caps-lock-text {
@@ -71,12 +69,14 @@ table {
 }
 
 .white-text {
-  font-family: "Ubuntu Mono";
-  font-style: normal;
-  font-weight: 400;
+  font-family: Ubuntu Mono;
   font-size: 48px;
+  font-weight: 400;
   line-height: 48px;
+  letter-spacing: 0em;
+
   color: #fff;
+  text-align: center;  
 }
 
 .black-text {
@@ -101,7 +101,6 @@ table {
 .badge {
   display: grid;
   justify-items: center;
-  /* align-content: center; */
 
   width: 684px;
   height: 768px;
@@ -110,10 +109,11 @@ table {
   box-shadow: 0px 0px 26px #9BFE33;
   border-radius: 215px;
 }
+
 .container-1 {
+  display: inline-flex;
 
-}
-
-img {
-
+  padding: 100px;
+  align-items: center;  
+  gap: 180px;
 }
