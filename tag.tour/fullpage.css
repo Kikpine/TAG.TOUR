@@ -1,3 +1,49 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+ HTML5 display-role reset for older browsers 
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+ /* Code */
 .section {
   background: #000;
   place-items: center;
@@ -24,33 +70,32 @@
   letter-spacing: -0.055em;
 }
 
-.plaint-text {
-  left: 47.72%;
-  right: 0.11%;
-  top: 36.5%;
-  bottom: 15.5%;
-
+.white-text {
   font-family: "Ubuntu Mono";
   font-style: normal;
   font-weight: 400;
   font-size: 48px;
   line-height: 48px;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  color: #fff;
+}
 
-  color: #ffffff;
+.black-text {
+  font-family: "Ubuntu Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+  color: #000;
 }
 
 .badge {
-  /* Rectangle 7 */
 
-  background: linear-gradient(180deg, #9bfe33 38.58%, #ffffff 100%);
-  box-shadow: 0px 0px 26px #9bfe33;
+  background: linear-gradient(180deg, #9BFE33 38.58%, #FFFFFF 100%);
+  box-shadow: 0px 0px 26px #9BFE33;
   border-radius: 215px;
 }
-.plan {
+.container-1 {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 4px;
+
+  
 }
