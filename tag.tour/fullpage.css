@@ -43,20 +43,24 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 } 
+
  /* Code */
 .section {
-  background: #000;
   place-items: center;
   display: grid;
   height: 100vh;
-  z-index: 2;
+
+  
 }
 
-.gradient {
-  background: linear-gradient(180deg, #9bfe33 0%, #ffffff 164.18%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  /* text-shadow: 0px 4px 15px rgba(50, 222, 35, 0.7); */
+.glowing-text {
+  background: white;
+  transition: 1s;
+}
+
+.glowing-text:hover {
+  background: red;
+
 }
 
 .caps-lock-text {
@@ -68,7 +72,7 @@ table {
   letter-spacing: -0.055em;
 }
 
-.white-text {
+.white-small-text {
   font-family: Ubuntu Mono;
   font-size: 48px;
   font-weight: 400;
@@ -79,99 +83,11 @@ table {
   text-align: center;  
 }
 
-.black-text {
-  font-family: "Ubuntu Mono";
-  color: #000;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 48px;
-  line-height: 48px;
-}
+#register-page {
+  background-size: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../images/city-welcome-page.png);
 
-.bold-black-text {
-  font-family: 'Ubuntu Mono';
-  color: #000000;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 96px;
-  line-height: 96px;
-  letter-spacing: -0.055em;
-}
-
-.badge {
-  display: grid;
-  justify-items: center;
-
-  width: 684px;
-  height: 768px;
-  
-  background: linear-gradient(180deg, #9BFE33 38.58%, #FFFFFF 100%);
-  box-shadow: 0px 0px 26px #9BFE33;
-  border-radius: 215px;
-}
-
-#container-1 {
-  display: inline-flex;
-
-  padding: 100px;
-  align-items: center;  
-  gap: 180px;
-}
-
-#container-2 {
-  display: inline-flex;
-
-  padding: 100px;
-  align-items: center;
-  gap: 5%;
-}
-
-#text-1 {
-  margin:30% 10% 0% 10%;
-}
-
-#image-1 {
-  margin: 10% 0% 0% 0%;
-
-  border-radius: 16px;
-  width: 413px;
-  height: 89px;
-  top: 386px;
-  left: 131px;
-  border-radius: 31px;
-}
-
-#image-2 {
-  margin: 5% 0% 0% 0%;
-  
-  height: 154.99px; 
-  top: 523px; 
-  left: 262px;
-}
-
-#article-1 {
-  width: 917px;
-  height: 288px;
-}
-
-#delimiter-1 {
-  width: 1px;
-  height: 85px;
-  background: #FFF;
-}
-
-/* Buttons */
-.white-button {
-  width: 236px;
-  height: 58px;
-
-  font-family: 'JetBrains Mono';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 40px;
-
-  color: #9BFE33; 
-  background: black;
-  border: none;
+  filter: brightness(20%) contrast(110%) grayscale(100%);
 }
