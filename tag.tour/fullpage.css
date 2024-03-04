@@ -52,7 +52,6 @@ table {
   z-index: 2;
 }
 
-// TEXT
 .gradient {
   background: linear-gradient(180deg, #9bfe33 0%, #ffffff 164.18%);
   -webkit-background-clip: text;
