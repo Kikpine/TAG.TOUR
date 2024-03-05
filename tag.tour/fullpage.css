@@ -54,13 +54,26 @@ table {
 }
 
 .glowing-text {
-  background: white;
-  transition: 1s;
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 200px;
+  line-height: 240px;
+
+  color: #000;
+  text-shadow: 0px 0px 50px #30D5C8;
+
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #30D5C8;
+
+  transition: color .9s;
+
+  opacity: 0.7;
 }
 
 .glowing-text:hover {
-  background: red;
-
+  color: #D9D9D9;
+  opacity: 1;
 }
 
 .caps-lock-text {
@@ -73,21 +86,64 @@ table {
 }
 
 .white-small-text {
-  font-family: Ubuntu Mono;
-  font-size: 48px;
+  font-family: 'Ubuntu';
+  font-style: normal;
   font-weight: 400;
-  line-height: 48px;
-  letter-spacing: 0em;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: -0.03em;
+  text-align: center; 
+  
+  color: #FFFFFF;
+}
 
-  color: #fff;
-  text-align: center;  
+.gray-button {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: -0.03em;
+
+  width: 180px;
+  height: 56px;
+  left: 870px;
+  top: 863px;
+  
+  background: linear-gradient(95.18deg, rgba(217, 217, 217, 0.1) 0.52%, rgba(217, 217, 217, 0) 100%);
+  backdrop-filter: blur(50px);
+
+  border: 0px;
+  border-radius: 15px;
+}
+
+.gray-button:hover {
+  background: linear-gradient(95.18deg, rgba(217, 217, 217, 0) 0.52%, rgba(217, 217, 217, 0.1) 100%);
+  backdrop-filter: blur(50px);
 }
 
 #register-page {
+  position: relative;
+ 
+  left: 0px;
+  top: 0px;
+
   background-size: no-repeat;
   background-position: center;
   background-size: cover;
   background-image: url(../images/city-welcome-page.png);
+}
 
-  filter: brightness(20%) contrast(110%) grayscale(100%);
+#paragraph-1 {
+  width: 551px;
+  height: 60px;
+  left: 684px;
+  top: 797px;
+}
+
+
+.centered-colomn {
+  display: grid;
+  justify-items: center;
 }
