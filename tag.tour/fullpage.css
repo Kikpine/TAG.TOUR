@@ -76,15 +76,6 @@ table {
   opacity: 1;
 }
 
-.caps-lock-text {
-  font-family: "JetBrains Mono";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 300px;
-  line-height: 396px;
-  letter-spacing: -0.055em;
-}
-
 .white-small-text {
   font-family: 'Ubuntu';
   font-style: normal;
@@ -105,6 +96,7 @@ table {
   line-height: 20px;
   text-align: center;
   letter-spacing: -0.03em;
+  color: #fff;
 
   width: 180px;
   height: 56px;
@@ -116,11 +108,50 @@ table {
 
   border: 0px;
   border-radius: 15px;
+
+  cursor: pointer;
 }
 
 .gray-button:hover {
   background: linear-gradient(95.18deg, rgba(217, 217, 217, 0) 0.52%, rgba(217, 217, 217, 0.1) 100%);
-  backdrop-filter: blur(50px);
+}
+
+.black-button {
+  width: 230px;
+  height: 56px;
+  left: 74px;
+  top: 1331px;
+
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 20px;
+
+  color: #FFFFFF;
+
+  border: 1px solid white;
+  border-radius: 15px;
+  background: #000;
+
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+.black-button:hover {
+  color: #000;
+  background: #fff;
+  transition: 0.6s;
+}
+
+.cyan-italic-text {
+  font-family: 'Urbanist';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 43px;
+
+  color: #30D5C8;
 }
 
 #register-page {
@@ -142,8 +173,39 @@ table {
   top: 797px;
 }
 
+#paragraph-2 {
+width: 788px;
+height: 115px;
+left: 74px;
+top: 1170px;
+
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 43px;
+
+color: #727679;
+}
 
 .centered-colomn {
   display: grid;
   justify-items: center;
+}
+
+.register-footer {
+  border-top: 1px solid white;
+
+  background: #000;
+  height: 372px;
+}
+
+.concept-logo {
+  left: 87.66%;
+  right: 9.06%;
+  top: 82.3%;
+  bottom: 13.46%;
+
+  border: 3px solid #30D5C8;
+  box-shadow: 0px 0px 50px #30D5C8;
 }
