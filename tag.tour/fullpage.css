@@ -44,13 +44,11 @@ table {
 	border-spacing: 0;
 } 
 
- /* Code */
+ /* CLASSES */
 .section {
   place-items: center;
   display: grid;
-  height: 100vh;
-
-  
+  height: 100vh;  
 }
 
 .glowing-text {
