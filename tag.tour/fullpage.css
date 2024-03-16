@@ -148,6 +148,8 @@ color: #727679;
 }
 
 .black-button {
+  margin: 0px 6px 0px 6px;
+
   width: 230px;
   height: 56px;
   left: 74px;
