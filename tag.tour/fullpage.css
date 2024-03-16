@@ -88,6 +88,26 @@ table {
   color: #FFFFFF;
 }
 
+.gray-small-text {
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 43px;
+
+color: #727679;
+}
+
+.cyan-italic-text {
+  font-family: 'Urbanist';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 43px;
+
+  color: #30D5C8;
+}
+
 .gray-button {
   font-family: 'JetBrains Mono';
   font-style: normal;
@@ -144,26 +164,61 @@ table {
   transition: 0.6s;
 }
 
-.cyan-italic-text {
-  font-family: 'Urbanist';
-  font-style: italic;
-  font-weight: 400;
-  font-size: 50px;
-  line-height: 43px;
+.centered-colomn {
+  display: grid;
+  justify-items: center;
 
-  color: #30D5C8;
 }
 
-#register-page {
-  position: relative;
- 
-  left: 0px;
-  top: 0px;
+.linear-colomn {
+  display: inline-grid;
+  align-items: center;
+  justify-items: start;
+  justify-content: space-around;
+  align-content: space-around;
+  gap: 1em;
+}
+
+.concept-logo {
+  left: 87.66%;
+  right: 9.06%;
+  top: 82.3%;
+  bottom: 13.46%;
+
+  border: 3px solid #30D5C8;
+  box-shadow: 0px 0px 50px #30D5C8;
+}
+
+/* ID'S */
+
+
+
+#home-page {
 
   background-size: no-repeat;
   background-position: center;
   background-size: cover;
   background-image: url(../images/city-welcome-page.png);
+}
+
+#home-footer {
+  display: grid;
+  justify-content: space-between;
+  align-content: space-around;
+  grid-template-columns: 1fr;
+
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  left: 0px;
+  bottom: 0%;
+  
+  background: #000;
+  border-top: 1px solid white;
+}
+
+#home-colomn {
+  margin-bottom: 200px;
 }
 
 #paragraph-1 {
@@ -188,24 +243,5 @@ line-height: 43px;
 color: #727679;
 }
 
-.centered-colomn {
-  display: grid;
-  justify-items: center;
-}
 
-.register-footer {
-  border-top: 1px solid white;
 
-  background: #000;
-  height: 372px;
-}
-
-.concept-logo {
-  left: 87.66%;
-  right: 9.06%;
-  top: 82.3%;
-  bottom: 13.46%;
-
-  border: 3px solid #30D5C8;
-  box-shadow: 0px 0px 50px #30D5C8;
-}
