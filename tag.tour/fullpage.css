@@ -185,6 +185,34 @@ color: #727679;
   transition: 0.6s;
 }
 
+.transparent-button {
+  width: 164px;
+  height: 48px;
+  left: 74px;
+  top: 1331px;
+  
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 20px;
+
+  color: #FFFFFF;
+
+  border: 1px solid white;
+  border-radius: 50px;
+  background: transparent;
+
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+.transparent-button:hover {
+  color: #000;
+  background: #fff;
+  transition: 0.6s;
+}
+
 .centered-colomn {
   display: grid;
   justify-items: center;
@@ -239,17 +267,6 @@ color: #727679;
   outline: none;
 }
 
-/* ID'S */
-
- /* Home page */
-
-#home-page {
-  background-size: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: url(../images/city-welcome-page.png);
-}
-
 .black-footer {
   display: flex;
   justify-content: space-between;
@@ -262,6 +279,17 @@ color: #727679;
   
   background: #000;
   border-top: 1px solid white;
+}
+
+/* ID'S */
+
+ /* Home page */
+
+#home-page {
+  background-size: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../images/city-welcome-page.png);
 }
 
 #home-colomn {
@@ -303,4 +331,13 @@ color: #727679;
   background-position: center;
   background-size: cover;
   background-image: url(../images/black-green-gradient_background.png);
+}
+
+#register-footer {
+  justify-content: center;
+}
+
+#register-colomn {
+  margin: 0px 0px 200px 0px;
+  gap: 68px;
 }
