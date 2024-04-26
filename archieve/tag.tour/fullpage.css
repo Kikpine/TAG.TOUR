@@ -285,7 +285,7 @@ color: #727679;
   background-size: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url(../images/black-green-gradient_background.png);
+  background-image: url(./images/black-green-gradient_background.png);
 }
 /* ID'S */
 
@@ -295,7 +295,7 @@ color: #727679;
   background-size: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url(../images/city-welcome-page.png);
+  background-image: url(./images/city-welcome-page.png);
 }
 
 #home-colomn {
