@@ -1,14 +1,21 @@
 
 .Greeting {
   width: 100%;
+  height: 100%;
   display: flex;
-  background-color: url('../assets/bcg.jpg');
+  align-items: end;
+  justify-content: start;
+  background-image: url('../assets/bcg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
+.content {
+  flex: 550px 0 0;
+  margin: 50px 100px;
+}
 .glowing-text {
-  font-family: 'Urbanist';
+  font-family: var(--font-urbanist);
   font-style: normal;
   font-weight: 900;
   font-size: 200px;
@@ -29,19 +36,20 @@
   opacity: 1;
 }
 .white-small-text {
-  font-family: 'Ubuntu';
+  font-family: var(--font-ubuntu);
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
   letter-spacing: -0.03em;
-  text-align: center; 
+  text-align: left; 
   
   color: #FFFFFF;
+  margin-bottom: 20px;
 }
 
 .gray-button {
-  font-family: 'JetBrains Mono';
+  font-family: var(--font-jb_mono);
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
@@ -60,7 +68,6 @@
 
   border: 0px;
   border-radius: 15px;
-
   cursor: pointer;
 }
 

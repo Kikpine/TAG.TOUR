@@ -18,68 +18,15 @@
   color: #FFFFFF;
 }
 
-.gray-small-text-1 {
-font-family: 'Jost';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 43px;
-
-color: #727679;
-}
-
-.gray-small-text-2 {
-  font-family: 'Urbanist';
-  font-style: normal;
-  font-weight: 200;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 0.05em;
-
-  color: #FFFFFF;
-  }
-
-.cyan-italic-text {
-  font-family: 'Urbanist';
-  font-style: italic;
-  font-weight: 400;
-  font-size: 50px;
-  line-height: 43px;
-
-  color: #30D5C8;
-}
 
 
 
-.black-button {
-  margin: 0px 6px 0px 6px;
 
-  width: 230px;
-  height: 56px;
-  left: 74px;
-  top: 1331px;
 
-  font-family: 'JetBrains Mono';
-  font-style: normal;
-  font-weight: 800;
-  font-size: 15px;
-  line-height: 20px;
 
-  color: #FFFFFF;
 
-  border: 1px solid white;
-  border-radius: 15px;
-  background: #000;
 
-  transition: 0.6s;
-  cursor: pointer;
-}
 
-.black-button:hover {
-  color: #000;
-  background: #fff;
-  transition: 0.6s;
-}
 
 .transparent-button {
   width: 164px;
@@ -114,16 +61,7 @@ color: #727679;
   justify-items: center;
 }
 
-.links-box {
-  margin: 30px;
 
-  width: 350px;
-  height: 200px;
-
-  display: grid;
-  justify-items: center;
-  gap: 0;
-}
 
 .concept-logo-1 {
   margin-top: 12px;
@@ -131,10 +69,7 @@ color: #727679;
   filter: drop-shadow(0 0 0.6rem #30D5C8);
 }
 
-.images-links-set {
-  display: inline-block;;
-  word-spacing: 30px;
-}
+
 
 
 .input-text {
