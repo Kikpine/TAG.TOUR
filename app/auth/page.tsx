@@ -1,9 +1,9 @@
-
-
-export default function SignIn() {
+import LogIn from "../components/ui/LogIn";
+import styles from '../page.module.css'
+export default function Auth() {
   return (
-    <main>
-      
+    <main className={styles.main}>
+      <LogIn />
     </main>
   );
 }

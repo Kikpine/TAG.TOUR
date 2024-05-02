@@ -72,27 +72,7 @@
 
 
 
-.input-text {
-  color: #fff;
 
-  border: 0px solid #fff;
-  border-bottom-width: 2px;
-
-  width: 800px;
-  height: 30px;
-
-  font-family: 'JetBrains Mono';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 29px;
-
-  background: transparent;
-}
-
-.input-text::placeholder {
-  color: rgba(255, 255, 255, 0.7);
-}
 
 .input-text:focus {
   outline: none;
