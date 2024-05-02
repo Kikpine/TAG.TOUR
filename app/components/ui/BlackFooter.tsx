@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 type Props = {
   extended: boolean
 }
@@ -11,6 +12,7 @@ import you_icon from '../../assets/youtube-icon.png'
 import gm_icon from '../../assets/gmail-icon.png'
 
 
+
 function BlackFooter({extended}: Props) {
   console.log(extended);
   return (
@@ -19,8 +21,12 @@ function BlackFooter({extended}: Props) {
         <div className={`${styles.leftbar} ${extended ? '' : styles.hidden}`}>
           <p className={`${styles["gray-small-text-1"]} ${jost.className}`}>Создавайте уникальный контент и продвигай свой бизнес с помощью инструментов <span className={`${styles["cyan-italic-text"]} ${urbanist.className}`}>tour+</span></p>
           <div className={`${styles['btnbar']}`}>
-            <button className={`${styles["black-button"]} ${jb_mono.className}`}>Зарегистрироваться</button>
-            <button className={`${styles["black-button"]} ${jb_mono.className}`}>Войти</button>
+            <Link href={'/reg'}>
+              <button className={`${styles["black-button"]} ${jb_mono.className}`}>Зарегистрироваться</button>
+            </Link>
+            <Link href={'/auth'}>
+              <button className={`${styles["black-button"]} ${jb_mono.className}`}>Войти</button>
+            </Link>
           </div>
         </div>
 
