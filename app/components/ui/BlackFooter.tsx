@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
-type Props = {}
+type Props = {
+  extended: boolean
+}
 import { urbanist, ubuntu, jost, jb_mono } from '@/app/assets/fonts'
 import styles from '../../styles/BlackFooter.module.css'
 import vk_icon from '../../assets/vk-icon.png'
@@ -9,11 +11,12 @@ import you_icon from '../../assets/youtube-icon.png'
 import gm_icon from '../../assets/gmail-icon.png'
 
 
-function BlackFooter({}: Props) {
+function BlackFooter({extended}: Props) {
+  console.log(extended);
   return (
     <footer className={`${styles.BlackFooter}`}>
       <div className={`${styles.content}`}>
-        <div className={`${styles.leftbar}`}>
+        <div className={`${styles.leftbar} ${extended ? '' : styles.hidden}`}>
           <p className={`${styles["gray-small-text-1"]} ${jost.className}`}>Создавайте уникальный контент и продвигай свой бизнес с помощью инструментов <span className={`${styles["cyan-italic-text"]} ${urbanist.className}`}>tour+</span></p>
           <div className={`${styles['btnbar']}`}>
             <button className={`${styles["black-button"]} ${jb_mono.className}`}>Зарегистрироваться</button>
