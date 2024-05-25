@@ -10,7 +10,6 @@
 }
 
 .gray-small-text-1 {
-  font-family: 'Jost';
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -20,7 +19,6 @@
 }
 
 .gray-small-text-2 {
-  font-family: 'Urbanist';
   font-style: normal;
   font-weight: 200;
   font-size: 20px;
@@ -32,7 +30,6 @@
 
 .black-button {
   padding: 20px;
-  font-family: 'JetBrains Mono';
   font-style: normal;
   font-weight: 800;
   font-size: 16px;
@@ -55,7 +52,6 @@
 }
 
 .cyan-italic-text {
-  font-family: 'Urbanist';
   font-style: italic;
   font-weight: 400;
   font-size: 50px;

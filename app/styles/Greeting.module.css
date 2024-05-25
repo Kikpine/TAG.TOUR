@@ -16,7 +16,6 @@
   margin: 50px 100px;
 }
 .glowing-text {
-  font-family: var(--font-urbanist);
   font-style: normal;
   font-weight: 900;
   font-size: 200px;
@@ -37,7 +36,6 @@
   opacity: 1;
 }
 .white-small-text {
-  font-family: var(--font-ubuntu);
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -50,7 +48,6 @@
 }
 
 .gray-button {
-  font-family: var(--font-jb_mono);
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
