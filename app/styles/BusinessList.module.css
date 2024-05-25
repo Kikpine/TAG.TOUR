@@ -1,0 +1,55 @@
+.BusinessList {
+  flex: 0 0 500px;
+}
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.main_btn {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 0;
+}
+.create {
+  width: 100%;
+
+}
+.inputs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+.inputs input, .inputs textarea, .schedule input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border: 1px solid #ffffffa2;
+  outline: none;
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29px;
+  padding: 10px;
+}
+
+.inputs input::placeholder, .inputs textarea::placeholder, .schedule input::placeholder {
+  color: rgba(255, 255, 255, .7);
+}
+
+.schedule_title {
+  font-size: 30px;
+}
+
+.schedule {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.object_list {
+
+}
